@@ -20,7 +20,7 @@
 
     .container {
       position: relative;
-      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+      // text-shadow: 1px 1px 4px rgba(0, 0, 0, 0);
 
       &:before, &:after {
         content: '';
@@ -42,7 +42,7 @@
         right: calc(-1 * var(--ds-banner-background-gradient-width));
       }
 
-      background-color: var(--ds-banner-text-background);
+      // background-color: var(--ds-banner-text-background);
     }
 
 
