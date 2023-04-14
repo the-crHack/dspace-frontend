@@ -1,0 +1,14 @@
+{
+    "apps": [
+        {
+           "name": "dspace-ui",
+           "cwd": "/home/project1/dspace-frontend",
+           "script": "dist/server/main.js",
+           "instances": "max",
+           "exec_mode": "cluster",
+           "env": {
+              "NODE_ENV": "production"
+           }
+        }
+    ]
+}

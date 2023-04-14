@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../dspace-backend"
+		}
+	],
+	"settings": {
+		"typescript.tsdk": "node_modules\\typescript\\lib"
+	}
+}
