@@ -1,15 +1,23 @@
 @media screen and (min-width: map-get($grid-breakpoints, md)) {
   nav.navbar {
     display: none;
+    // width: 500px;
+    // visibility: hidden;
   }
   .header {
     background-color: var(--ds-header-bg);
+    // width: 100px;
+    // height: 100px;
+    // position: absolute;
+    // left: 0;
+    // top: 0;
   }
 }
 
 .navbar-brand img {
   @media screen and (max-width: map-get($grid-breakpoints, md)) {
     height: var(--ds-header-logo-height-xs);
+    // height: 100px;
   }
 }
 .navbar-toggler .navbar-toggler-icon {

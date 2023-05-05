@@ -1,5 +1,12 @@
 <ng-container *ngIf="showAccessStatus">
+  <!-- <div *ngIf="accessStatus$ | async as accessStatus">
+    <span style= "background-color: #0aa718" class="badge badge-secondary">{{ accessStatus | translate }}</span>
+  </div> -->
   <div *ngIf="accessStatus$ | async as accessStatus">
-    <span class="badge badge-secondary">{{ accessStatus | translate }}</span>
+    <!-- <span [style.background-color]=" accessStatus === 'access-status.open.access.listelement.badge' || 'access-status.metadata.only.listelement.badge'  ? '#0aa718' : '#f00'" class="badge badge-secondary">{{ accessStatus | translate}}</span> -->
+    <span class="badge badge-secondary"
+        [style.background-color]="accessStatus === 'access-status.open.access.listelement.badge' ? '#0aa718' : (accessStatus === 'access-status.metadata.only.listelement.badge' ? '#696d69' : '#d42424')"> {{ accessStatus | translate }}
+  </span>
   </div>
+  
 </ng-container>

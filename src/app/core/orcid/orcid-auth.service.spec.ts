@@ -278,7 +278,7 @@ describe('OrcidAuthService', () => {
 
   describe('getOrcidAuthorizeUrl', () => {
     beforeEach(() => {
-      routerStub.setRoute('/entities/person/uuid/orcid');
+      routerStub.setRoute('/entities/person'); //uuid/orcid
       (service as any).configurationService.findByPropertyName.and.returnValues(
         createSuccessfulRemoteDataObject$(authorizeUrl),
         createSuccessfulRemoteDataObject$(appClientId),

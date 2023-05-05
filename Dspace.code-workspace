@@ -5,6 +5,12 @@
 		},
 		{
 			"path": "../dspace-backend"
+		},
+		{
+			"path": "../../../dspace-ui-deploy"
+		},
+		{
+			"path": "../../../dspace"
 		}
 	],
 	"settings": {

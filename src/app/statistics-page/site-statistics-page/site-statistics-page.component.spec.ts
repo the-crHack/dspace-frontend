@@ -103,5 +103,11 @@ describe('SiteStatisticsPageComponent', () => {
   it('should show a statistics table for each usage report', () => {
     expect(de.query(By.css('ds-statistics-table.site_id-TotalVisits-report')).nativeElement)
       .toBeTruthy();
+      expect(de.query(By.css('ds-statistics-table.site_id-TotalVisitsPerMonth-report')).nativeElement)
+      .toBeTruthy();
+    expect(de.query(By.css('ds-statistics-table.site_id-TopCountries-report')).nativeElement)
+      .toBeTruthy();
+    expect(de.query(By.css('ds-statistics-table.site_id-TopCities-report')).nativeElement)
+      .toBeTruthy();
   });
 });

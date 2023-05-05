@@ -1,5 +1,6 @@
 .nav-breadcrumb {
-  background-color: var(--ds-breadcrumb-bg);
+  // background-color: var(--ds-breadcrumb-bg);
+  background-color: #c4c8cb;
 }
 
 .breadcrumb {
@@ -7,11 +8,12 @@
   margin-top: calc(-1 * var(--ds-content-spacing));
   padding-bottom: var(--ds-content-spacing / 3);
   padding-top: var(--ds-content-spacing / 3);
-  background-color: var(--ds-breadcrumb-bg);
+  background-color:#c4c8cb;
 }
 
 li.breadcrumb-item {
   display: flex;
+  // text-color: white;
 }
 
 .breadcrumb-item-limiter {
@@ -25,12 +27,15 @@ li.breadcrumb-item {
 
 li.breadcrumb-item {
     a {
-        color: var(--ds-breadcrumb-link-color);
+        // color: var(--ds-breadcrumb-link-color);
+        // color: white;
+        color: #000000;
     }
 }
 
 li.breadcrumb-item.active {
-  color: var(--ds-breadcrumb-link-active-color);
+  // color: var(--ds-breadcrumb-link-active-color);
+  color: #000000;
 }
 
 .breadcrumb-item+ .breadcrumb-item::before {

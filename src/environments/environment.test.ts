@@ -16,8 +16,8 @@ export const environment: BuildConfig = {
   // Angular Universal server settings.
   ui: {
     ssl: false,
-    host: 'dspace.com',
-    port: 80,
+    host: 'localhost',
+    port: 4000,
     // NOTE: Space is capitalized because 'namespace' is a reserved string in TypeScript
     nameSpace: '/angular-dspace',
     baseUrl: 'http://dspace.com/angular-dspace',
@@ -31,12 +31,12 @@ export const environment: BuildConfig = {
 
   // The REST API server settings.
   rest: {
-    ssl: true,
-    host: 'rest.com',
-    port: 443,
+    ssl: false,
+    host: 'localhost',
+    port: 8080,
     // NOTE: Space is capitalized because 'namespace' is a reserved string in TypeScript
-    nameSpace: '/api',
-    baseUrl: 'https://rest.com/api'
+    nameSpace: '/server',
+    baseUrl: 'https://localhost/server'
   },
 
   actuators: {
@@ -244,7 +244,7 @@ export const environment: BuildConfig = {
       undoTimeout: 10000 // 10 seconds
     },
     // Show the item access status label in items lists
-    showAccessStatuses: false,
+    showAccessStatuses: true,
     bitstream: {
       // Number of entries in the bitstream list in the item view page.
       // Rounded to the nearest size in the list of selectable sizes on the

@@ -59,7 +59,7 @@ export class StatisticsTableComponent implements OnInit {
           map((item) => this.nameService.getName(item)),
         );
       case 'TopCities':
-      case 'topCountries':
+      case 'TopCountries':
       default:
         return of(point.label);
     }

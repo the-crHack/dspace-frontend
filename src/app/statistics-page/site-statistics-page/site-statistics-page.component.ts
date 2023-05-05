@@ -23,6 +23,9 @@ export class SiteStatisticsPageComponent extends StatisticsPageComponent<Site> {
    */
   types: string[] = [
     'TotalVisits',
+    'TotalVisitsPerMonth',
+    'TopCountries',
+    'TopCities',
   ];
 
   constructor(

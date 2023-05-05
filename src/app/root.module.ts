@@ -44,6 +44,7 @@ import { ThemedPageErrorComponent } from './page-error/themed-page-error.compone
 import { PageErrorComponent } from './page-error/page-error.component';
 import { ContextHelpToggleComponent } from './header/context-help-toggle/context-help-toggle.component';
 import { SystemWideAlertModule } from './system-wide-alert/system-wide-alert.module';
+// import { RenderHtmlComponent } from '../themes/dspace/app/reports/render-html.component'
 
 const IMPORTS = [
   CommonModule,
@@ -83,6 +84,7 @@ const DECLARATIONS = [
   ThemedPageErrorComponent,
   PageErrorComponent,
   ContextHelpToggleComponent,
+  // RenderHtmlComponent,
 ];
 
 const EXPORTS = [

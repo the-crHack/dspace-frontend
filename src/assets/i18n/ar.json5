@@ -2655,7 +2655,7 @@
   
   // "item.bitstreams.upload.notifications.upload.failed": "Upload failed. Please verify the content before retrying.",
   // TODO New key - Add a translation
-  "item.bitstreams.upload.notifications.upload.failed": "Upload failed. Please verify the content before retrying.",
+  "item.bitstreams.upload.notifications.upload.failed": ". Please verify the content before retrying.",
   
   // "item.bitstreams.upload.title": "Upload bitstream",
   // TODO New key - Add a translation
